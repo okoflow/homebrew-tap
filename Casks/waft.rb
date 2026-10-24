@@ -1,6 +1,6 @@
 cask "waft" do
-  version "0.12.1"
-  sha256 "57a1c6f9d1495acc3a882ef554a4bf5cb71a2a26be90a7b663b4085cfb92953d"
+  version "0.12.2"
+  sha256 "b0b29676817f005ec6fc47c2d5ca129d3903023c191f624b0172c35bb10bc38d"
 
   url "https://github.com/okoflow/waft/releases/download/v#{version}/Waft-#{version}.dmg"
   name "Waft"
