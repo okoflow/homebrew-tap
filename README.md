@@ -1,6 +1,6 @@
 # okoflow Homebrew tap
 
-Homebrew casks for [Okoflow](https://github.com/okoflow) desktop apps.
+Homebrew packages for [Okoflow](https://github.com/okoflow) apps and tools.
 
 ```sh
 brew install --cask okoflow/tap/waft
@@ -8,6 +8,6 @@ brew install --cask okoflow/tap/waft
 
 | Cask | App |
 | --- | --- |
-| `waft` | [Waft](https://github.com/okoflow/waft), on-device dictation for Mac with AI cleanup |
+| `waft` | [Waft](https://github.com/okoflow/waft), on-device dictation with AI cleanup |
 
 Each app's release script writes its cask; change the template in the app's repository, not here.
