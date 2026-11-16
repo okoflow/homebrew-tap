@@ -1,6 +1,6 @@
 # okoflow Homebrew tap
 
-Homebrew casks for [OkoFlow](https://github.com/okoflow) desktop apps.
+Homebrew casks for [Okoflow](https://github.com/okoflow) desktop apps.
 
 ```sh
 brew install --cask okoflow/tap/waft
