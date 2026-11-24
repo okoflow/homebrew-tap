@@ -1,10 +1,14 @@
 # Security policy
 
-This page covers how to report a vulnerability in the Okoflow Homebrew tap and what is in scope.
+This page covers which versions of the Okoflow Homebrew tap are supported, how to report a vulnerability, and what is in scope.
 
 ## Supported versions
 
-Only `main` is supported. Each cask points to the latest release of its app.
+| Version | Supported |
+| --- | --- |
+| `main` | Yes |
+
+Each cask points to the latest release of its app.
 
 ## Reporting a vulnerability
 
@@ -16,10 +20,10 @@ Include what helps reproduce and assess the issue:
 - Steps to reproduce, or a proof of concept.
 - The impact you expect.
 
-You receive an acknowledgment within three business days and a triage decision within seven business days.
+You receive an acknowledgment within three business days and a triage decision within seven business days. A confirmed vulnerability is fixed on `main` and disclosed in a GitHub security advisory that credits you, unless you ask otherwise. Keep the report private until the advisory is published.
 
 ## Scope
 
 In scope: the casks in this repository, such as a download URL, checksum, or install step that lets someone install a file other than the app's signed release.
 
-Out of scope: vulnerabilities in an app itself; report those in the app's repository, for example [Waft](https://github.com/okoflow/waft/security/advisories/new). Vulnerabilities in Homebrew are reported to Homebrew.
+Out of scope: vulnerabilities in an app itself, which go to the app's repository, for example [Waft](https://github.com/okoflow/waft/security/advisories/new); vulnerabilities in Homebrew, which go to Homebrew.
