@@ -5,8 +5,8 @@ This page covers which versions of the Okoflow Homebrew tap are supported, how t
 ## Supported versions
 
 | Version | Supported |
-| --- | --- |
-| `main` | Yes |
+| ------- | --------- |
+| `main`  | Yes       |
 
 Each cask points to the latest release of its app.
 
